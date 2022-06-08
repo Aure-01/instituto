@@ -1,0 +1,392 @@
+CRITICAL - 2022-05-09 07:13:28 --> Undefined variable: prestamo
+#0 C:\xampp\htdocs\instituto\app\Views\plantilla.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('/plantilla', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(9): view('/plantilla')
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 07:32:29 --> View themes, no current section.
+#0 C:\xampp\htdocs\instituto\app\Views\Carreras\index.php(40): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('Carreras/index', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(29): view('Carreras/index')
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->Carreras()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 07:55:57 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\instituto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\instituto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\instituto\app\Controllers\Home.php(35): CodeIgniter\Model->__call('leerCarreras', Array)
+#3 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->Estudiantes()
+#4 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 07:56:29 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\instituto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\instituto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\instituto\app\Controllers\Home.php(35): CodeIgniter\Model->__call('leerCarreras', Array)
+#3 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->Estudiantes()
+#4 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 07:56:30 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\instituto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\instituto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\instituto\app\Controllers\Home.php(35): CodeIgniter\Model->__call('leerCarreras', Array)
+#3 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->Estudiantes()
+#4 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 07:57:30 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\instituto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\instituto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\instituto\app\Controllers\Home.php(35): CodeIgniter\Model->__call('leerCarreras', Array)
+#3 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->Estudiantes()
+#4 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 07:57:31 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\instituto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\instituto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\instituto\app\Controllers\Home.php(35): CodeIgniter\Model->__call('leerCarreras', Array)
+#3 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->Estudiantes()
+#4 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:21:35 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\instituto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\instituto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\instituto\app\Controllers\Home.php(41): CodeIgniter\Model->__call('borrarCarreras', Array)
+#3 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->borrarCarrera('2')
+#4 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:23:43 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\instituto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\instituto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\instituto\app\Controllers\Home.php(41): CodeIgniter\Model->__call('borrarCarreras', Array)
+#3 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->borrarCarrera('2')
+#4 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:23:44 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\instituto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\instituto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\instituto\app\Controllers\Home.php(41): CodeIgniter\Model->__call('borrarCarreras', Array)
+#3 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->borrarCarrera('2')
+#4 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:23:44 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\instituto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\instituto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\instituto\app\Controllers\Home.php(41): CodeIgniter\Model->__call('borrarCarreras', Array)
+#3 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->borrarCarrera('2')
+#4 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:23:59 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\instituto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\instituto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\instituto\app\Controllers\Home.php(41): CodeIgniter\Model->__call('borrarCarreras', Array)
+#3 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->borrarCarrera('1')
+#4 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:34:27 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\instituto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\instituto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\instituto\app\Controllers\Home.php(41): CodeIgniter\Model->__call('borrarCarreras', Array)
+#3 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->borrarCarrera('1')
+#4 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:34:44 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\instituto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\instituto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\instituto\app\Controllers\Home.php(41): CodeIgniter\Model->__call('borrarCarreras', Array)
+#3 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->borrarCarrera('2')
+#4 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 10:20:54 --> Undefined variable: puestos
+#0 C:\xampp\htdocs\instituto\app\Views\Carreras\crear.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('/Carreras/crear', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(71): view('/Carreras/crear', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->crearCarreras()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 11:09:00 --> Undefined variable: carreraModelo
+#0 C:\xampp\htdocs\instituto\app\Views\Estudiantes\crear.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('/Estudiantes/cr...', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(35): view('/Estudiantes/cr...')
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->crearEstudiantes()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 11:09:11 --> Undefined variable: carrera
+#0 C:\xampp\htdocs\instituto\app\Views\Estudiantes\crear.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('/Estudiantes/cr...', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(35): view('/Estudiantes/cr...')
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->crearEstudiantes()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 11:10:12 --> Undefined variable: carrera
+#0 C:\xampp\htdocs\instituto\app\Views\Estudiantes\crear.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('/Estudiantes/cr...', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(35): view('/Estudiantes/cr...')
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->crearEstudiantes()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 11:13:30 --> Undefined property: stdClass::$id_carrera
+#0 C:\xampp\htdocs\instituto\app\Views\Estudiantes\crear.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('/Estudiantes/cr...', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(37): view('/Estudiantes/cr...', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->crearEstudiantes()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 11:14:16 --> Undefined property: stdClass::$nombre
+#0 C:\xampp\htdocs\instituto\app\Views\Estudiantes\crear.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('/Estudiantes/cr...', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(37): view('/Estudiantes/cr...', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->crearEstudiantes()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 11:16:18 --> Undefined property: stdClass::$fk_idcarrera
+#0 C:\xampp\htdocs\instituto\app\Views\Estudiantes\crear.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('/Estudiantes/cr...', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(39): view('/Estudiantes/cr...', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->crearEstudiantes()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 11:16:52 --> Undefined property: stdClass::$fk_idcarrera
+#0 C:\xampp\htdocs\instituto\app\Views\Estudiantes\crear.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('/Estudiantes/cr...', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(39): view('/Estudiantes/cr...', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->crearEstudiantes()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 11:32:27 --> There is no data to insert.
+#0 C:\xampp\htdocs\instituto\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\instituto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\instituto\app\Controllers\Home.php(56): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->registrarEstudiante()
+#4 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-09 13:28:42 --> Table 'instituto.carrera' doesn't exist
+CRITICAL - 2022-05-09 13:28:42 --> Table 'instituto.carrera' doesn't exist
+#0 C:\xampp\htdocs\instituto\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\instituto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\instituto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\instituto\app\Models\CarrerasModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(78): App\Models\CarrerasModel->leerCarreras()
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->Carreras()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-09 13:28:51 --> Table 'instituto.estudiante' doesn't exist
+CRITICAL - 2022-05-09 13:28:51 --> Table 'instituto.estudiante' doesn't exist
+#0 C:\xampp\htdocs\instituto\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\instituto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\instituto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\instituto\app\Models\EstudiantesModel.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(30): App\Models\EstudiantesModel->leerEstudiantes()
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->Estudiantes()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 15:55:56 --> Unclosed '{' on line 117 does not match ')'
+#0 C:\xampp\htdocs\instituto\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\instituto\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\instituto\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\instituto\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 16:06:44 --> Undefined variable $puesto
+#0 C:\xampp\htdocs\instituto\app\Views\Carreras\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('Carreras/editar', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(114): view('Carreras/editar', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->editarCarreras('1')
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 16:10:18 --> Attempt to read property "id_carrera" on array
+#0 C:\xampp\htdocs\instituto\app\Views\Carreras\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('Carreras/editar', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(114): view('Carreras/editar', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->editarCarreras('1')
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 16:14:08 --> Attempt to read property "id_carrera" on array
+#0 C:\xampp\htdocs\instituto\app\Views\Carreras\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('Carreras/editar', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(114): view('Carreras/editar', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->editarCarreras('1')
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 16:18:56 --> Attempt to read property "id_carrera" on array
+#0 C:\xampp\htdocs\instituto\app\Views\Carreras\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('Carreras/editar', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(114): view('Carreras/editar', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->editarCarreras('1')
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 16:20:50 --> Attempt to read property "id_carrera" on array
+#0 C:\xampp\htdocs\instituto\app\Views\Carreras\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('Carreras/editar', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(114): view('Carreras/editar', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->editarCarreras('1')
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 16:20:51 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id_carrera
+#0 C:\xampp\htdocs\instituto\app\Views\Carreras\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('Carreras/index', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(79): view('Carreras/index', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->Carreras()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 16:20:54 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id_carrera
+#0 C:\xampp\htdocs\instituto\app\Views\Carreras\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('Carreras/index', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(79): view('Carreras/index', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->Carreras()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 17:40:43 --> Undefined variable $id_carrera
+#0 C:\xampp\htdocs\instituto\app\Views\Estudiantes\crear.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('/Estudiantes/cr...', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(39): view('/Estudiantes/cr...', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->crearEstudiantes()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 17:41:48 --> Undefined variable $Carreras
+#0 C:\xampp\htdocs\instituto\app\Views\Estudiantes\crear.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('/Estudiantes/cr...', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(39): view('/Estudiantes/cr...', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->crearEstudiantes()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 17:41:59 --> Undefined variable $id_carrera
+#0 C:\xampp\htdocs\instituto\app\Views\Estudiantes\crear.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('/Estudiantes/cr...', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(39): view('/Estudiantes/cr...', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->crearEstudiantes()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 17:42:27 --> Undefined variable $id_carrera
+#0 C:\xampp\htdocs\instituto\app\Views\Estudiantes\crear.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('/Estudiantes/cr...', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(39): view('/Estudiantes/cr...', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->crearEstudiantes()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 17:45:34 --> Undefined variable $id_carrera
+#0 C:\xampp\htdocs\instituto\app\Views\Estudiantes\crear.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\instituto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\instituto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\instituto\system\Common.php(1089): CodeIgniter\View\View->render('/Estudiantes/cr...', Array, true)
+#4 C:\xampp\htdocs\instituto\app\Controllers\Home.php(40): view('/Estudiantes/cr...', Array)
+#5 C:\xampp\htdocs\instituto\system\CodeIgniter.php(832): App\Controllers\Home->crearEstudiantes()
+#6 C:\xampp\htdocs\instituto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\instituto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\instituto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
